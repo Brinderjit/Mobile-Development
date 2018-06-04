@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BrinderjitSingh_COMP304_002_Hands-On_Test1</string>
+    <string name="welcome">Brain Challenge</string>
+    <string name="welcome1">Challenge your brain with scientifically designed exercises</string>
+    <string name="mainbutton">SELECT EXERCISES</string>
+    <string name="secondActivity">Brain Challenge</string>
+    <string-array name="exerciselist">
+        <item>Lose Things</item>
+        <item>Remember names</item>
+        <item>Learn things quickly</item>
+        <item>Keep track of multiple thinks</item>
+        <item>Test your recall</item>
+        <item>Do math in your head</item>
+    </string-array>
+
+
+        <string-array name="memoryCycle">
+            <item>90</item>
+            <item>120</item>
+            <item>90</item>
+            <item>120</item>
+
+            <item>90</item>
+            <item>120</item>
+            <item>90</item>
+            <item>120</item>
+            <item>90</item>
+
+
+        </string-array>
+    </resources>
+

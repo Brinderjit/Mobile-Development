@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BrinderjitSingh_COMP304FinalLabTest_002</string>
+    <string name="titletext">Select stock symbol:</string>
+    <string name="displayBtnTxt">DISPLAY Stock INFO</string>
+    <string name="insertStBtnTxt">INSERT STOCKS(HARDCODE)</string>
+    <string name="stock1">GOOGL</string>
+    <string name="stock2">AMZN</string>
+    <string name="stock3">SSNLF</string>
+    <string name="heading">Stock Information</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Display Student Information</string>
+    <string name="Display_Button">Send</string>
+    <string name="full_name">Brinderjit Singh</string>
+    <string name="program_name">Software engineering technology(Fast Track)</string>
+    <string name="semester">3rd Semester</string>
+    <string name="course_name">Mobile Application Development(COMP-304)</string>
+</resources>

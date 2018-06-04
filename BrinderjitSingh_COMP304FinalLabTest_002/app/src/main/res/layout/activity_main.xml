@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outerMostLayouts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/layout_padding_bottom"
+    android:paddingLeft="@dimen/layout_padding_left"
+    android:paddingRight="@dimen/layout_padding_right"
+    android:paddingTop="@dimen/layout_padding_top"
+    tools:context="com.example.brindersaini.brinderjitsingh_comp304finallabtest_002.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/insertStocks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onInsertStockClick"
+            android:text="@string/insertStBtnTxt" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titletext"
+            android:textSize="@dimen/title_font" />
+
+        <RadioGroup
+            android:id="@+id/stockRdoGrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/stock1Rdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stock1" />
+
+            <RadioButton
+                android:id="@+id/stock2Rdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stock2" />
+
+            <RadioButton
+                android:id="@+id/stock3Rdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stock3" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/startServiceBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onDisplayStockClick"
+            android:text="@string/displayBtnTxt" />
+
+        <TextView
+            android:id="@+id/displayStockTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</RelativeLayout>
+

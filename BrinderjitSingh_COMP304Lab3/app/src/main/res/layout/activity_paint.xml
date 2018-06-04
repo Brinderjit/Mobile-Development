@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.brindersaini.brinderjitsingh_comp304lab3.PaintActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/layout_margin_right"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/layout_padding_bottom"
+            android:paddingLeft="@dimen/layout_padding_left"
+            android:paddingRight="@dimen/layout_padding_right"
+            android:paddingTop="@dimen/layout_padding_top">
+
+            <TextView
+                android:id="@+id/thicknessTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_thickness"
+                android:textColor="@color/textColorGey"
+                android:textSize="@dimen/Label_font" />
+
+            <Spinner
+                android:id="@+id/thicknessSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textColorGey"
+                android:backgroundTint="@color/textColorGey"
+                android:entries="@array/line_thickness"
+                android:foregroundTint="@color/textColorGey"
+                android:hapticFeedbackEnabled="false"
+                android:theme="@style/AppTheme" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/layout_padding_bottom"
+            android:paddingLeft="@dimen/layout_padding_left"
+            android:paddingRight="@dimen/layout_padding_right"
+            android:paddingTop="@dimen/layout_padding_top">
+
+            <TextView
+                android:id="@+id/lineColorTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_lineColor"
+                android:textAlignment="center"
+                android:textColor="@color/textColorGey"
+                android:textSize="@dimen/Label_font" />
+
+            <RadioGroup
+                android:id="@+id/colorRdoGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/redRdoBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Red"
+                    android:textColor="@color/textColorGey"
+                    app:buttonTint="@color/textColorGey" />
+
+                <RadioButton
+                    android:id="@+id/yellowRdoBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yellow"
+                    android:textColor="@color/textColorGey"
+                    app:buttonTint="@color/textColorGey" />
+
+                <RadioButton
+                    android:id="@+id/cyadRdoBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contextClickable="false"
+                    android:text="Cyan"
+                    android:textColor="@color/textColorGey"
+                    app:buttonTint="@color/textColorGey" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_right"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/arrowKeysTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_keys"
+                android:textColor="@color/textColorGey"
+                android:textSize="@dimen/Label_font" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/layout_padding_bottom"
+                android:paddingLeft="@dimen/layout_padding_left"
+                android:paddingRight="@dimen/layout_padding_right"
+                android:paddingTop="@dimen/layout_padding_top">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonUp"
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_column="1"
+                        android:cropToPadding="false"
+                        android:onClick="onUpButtonClick"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_up_black_24dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonLeft"
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_column="0"
+                        android:onClick="onLeftButtonClick"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonRight"
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_column="2"
+                        android:onClick="onRightButtonClick"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonDown"
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_column="1"
+                        android:cropToPadding="false"
+                        android:onClick="onDownButtonClick"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:onClick="clearCanvas"
+        android:text="Clear Canvas" />
+
+    <ImageView
+        android:id="@+id/ImageViewForDrawing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/clearBtn"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/clearBtn"
+        android:text="TextView"
+        android:textColor="@color/textColorGey" />
+
+</RelativeLayout>

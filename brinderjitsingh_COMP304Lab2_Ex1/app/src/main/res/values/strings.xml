@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Desi Cuisine</string>
+    <string name="enter_button">Enter</string>
+    <string name="next_button">Next</string>
+    <string name="cusine_1">American</string>
+    <string name="cusine_2">Indian</string>
+    <string name="cusine_3">Italian</string>
+    <string name="cusine_4">Chinese</string>
+    <string name="cusine_5">Russian</string>
+    <string name="cusine_6">Canadian</string>
+    <string name="cusine_7">Others</string>
+    <string-array name="american_restaurants">
+        <item>The Keg Steakhouse</item>
+        <item>Arriba Restaurant</item>
+        <item>Over Easy</item>
+        <item>Earls Kitchen and Bar</item>
+        <item>The Carbon Bar</item>
+        <item>Senator Restaurant</item>
+
+    </string-array>
+    <string-array name="indian_restaurants">
+        <item>Little India Restaurant</item>
+        <item>Pukka</item>
+        <item>The Host</item>
+        <item>Feast of Dilli</item>
+        <item>Curry Twist</item>
+        <item>Rickshaw Bar</item>
+
+    </string-array>
+    <string-array name="italain_restaurants">
+        <item>Buca</item>
+        <item>FAmelia</item>
+        <item>Aria Ristorante</item>
+        <item>Enoteca Sociale</item>
+        <item>La Cascina</item>
+        <item>Piano Piano</item>
+
+    </string-array>
+    <string-array name="chinese_restaurants">
+        <item>Dumpling House</item>
+        <item>Lai Wah Heen</item>
+        <item>Mandarin Restaurant</item>
+        <item>Swatow Restaurant</item>
+        <item>Congee Queen</item>
+        <item>Dragon Pearl Buffet</item>
+
+    </string-array>
+    <string-array name="russian_restaurants">
+        <item>Pravda Vodka Bar</item>
+        <item>Red Square</item>
+        <item>Moldova Restaurant</item>
+        <item>Elite Grande</item>
+        <item>National Restaurant</item>
+        <item>Baby Point Lounge</item>
+
+    </string-array>
+    <string-array name="canadian_restaurants">
+        <item>Sunset Grill</item>
+        <item>G For Gelato</item>
+        <item>Banh Mi Boys</item>
+        <item>Wilbur Mexicana</item>
+        <item>Seven Lives</item>
+        <item>Loblaws</item>
+
+    </string-array>
+    <string-array name="others_restaurants">
+        <item>ALO RESTAURANT</item>
+        <item>Byblos</item>
+        <item>GEORGE Restaurant</item>
+        <item>Lee Restaurant</item>
+        <item>Carisma</item>
+        <item>Barberian\'s Steak House</item>
+
+    </string-array>
+    <string-array name="food_list1">
+        <item>Poutine</item>
+        <item>Ketchup Chips</item>
+        <item>Maple Syrup</item>
+        <item>Bacon</item>
+        <item>BeaverTail</item>
+        <item>Nanaimo Bars</item>
+
+    </string-array>
+    <string-array name="food_list2">
+        <item>Alu Matar</item>
+        <item>Barfi</item>
+        <item>Cham-Cham</item>
+        <item>Samosa</item>
+        <item>Butter Chicken</item>
+        <item>Chana Masala</item>
+
+    </string-array>
+    <string-array name="food_list3">
+        <item>Game Meat</item>
+        <item>B.C. Salmon</item>
+        <item>Wild Blueberries</item>
+        <item>Blueberry Blossom Honey</item>
+        <item>Oysters</item>
+        <item>Canadian Apples</item>
+
+    </string-array>
+    <string-array name="food_list4">
+        <item>Nova Scotia Lobster</item>
+        <item>Alberta Beef</item>
+        <item>Montreal Bagels</item>
+        <item>Arctic Char</item>
+        <item>Bannock</item>
+        <item>Kraft Dinner</item>
+    </string-array>
+    <string-array name="food_list5">
+        <item>Saskatoon Berries</item>
+        <item>Fiddleheads</item>
+        <item>Swiss Chalet Sauce</item>
+        <item>Cod Tongue</item>
+        <item>Pemmican</item>
+        <item>Red Rose Tea</item>
+
+    </string-array>
+    <string-array name="food_list6">
+        <item>Foie Gras</item>
+        <item>Oka Cheese</item>
+        <item>Sugar Pie</item>
+        <item>Coffee Crisp</item>
+        <item>Caesar</item>
+        <item>Blueberry Grunt</item>
+
+    </string-array>
+    <string name="select_menu_text">Select a restaurant from menu</string>
+    <string name="cuisine_type">Select a cuisine type</string>
+</resources>

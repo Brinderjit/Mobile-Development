@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/ButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonTranslate"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:text="Move"></Button>
+
+        <Button
+            android:id="@+id/ButtonStop"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Stop"></Button>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sky"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ImageViewForTweening"
+            android:layout_width="70dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:minHeight="90px"
+            android:minWidth="90px"
+            app:srcCompat="@drawable/moon"
+            android:layout_above="@+id/ImageViewEarth"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"></ImageView>
+
+        <ImageView
+            android:id="@+id/ImageViewEarth"
+            android:layout_width="202dp"
+            android:layout_height="193dp"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            app:srcCompat="@drawable/earth"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tween" />
+
+</LinearLayout>
